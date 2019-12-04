@@ -26,7 +26,7 @@ ENV APACHE_SPARK_VERSION 2.2.0
 
 RUN apt-get -y update && \
     apt-get -y install software-properties-common
-RUN apt-get install default-jdk
+RUN apt-get -y install default-jdk
 
 
 RUN cd /tmp && \
